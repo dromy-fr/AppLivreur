@@ -8,40 +8,56 @@
     <meta name="theme-color" content="#ffffff" />
     <meta http-equiv="content-language" content="fr" />
     <meta name="language" content="fr" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="msapplication-navbutton-color" content="#000000" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="#000000" /><title>Se connecter | Dromy</title>
+    <meta name="copyright" content="//dromy.fr" />
+    <meta name="author" content="dromy.fr" />
+    <meta name="theme-color" content="#f5bf60" />
+    <meta name="msapplication-navbutton-color" content="#f5bf60" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#f5bf60" /><title>Se connecter | Dromy</title>
     <meta property="og:title" content="Se connecter" />
+    <meta property="og:site_name" content="dromy.fr" />
+    <meta property="og:url" content="https://www.dromy.fr/login" />
     <meta property="og:language" content="fr" />
     <link rel="stylesheet" media="screen" href="style.css" />
     <meta name="csrf-param" content="authenticity_token" />
-    <meta name="csrf-token" content="WOIMY7csx5ZGOxw1Q8suEktMyGbstMr/KA1xBJQBrsmRkprgpkRnOH69OpQm57wSsSxp5LSKEeedh6Y+W4JKUw==" /><meta name="action-cable-url" content="/websocket" />
+    <meta name="csrf-token" content="+xB7KhlEYfVj5dvKbeENvF5gQwM9eh+UEW/BWOqIszorUcBnp4p4dRmJ6VMOVhuJ88pxcGEZal47QtgphiMaVQ==" />
+	<meta name="action-cable-url" content="/websocket" />
     <meta name="turbolinks-cache-control" content="no-cache" />
-    <link rel="shortcut icon" type="image/png" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="manifest" href="/manifest.json" />
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <script>
+      (function (f, a, t, h, o, m) {
+        a[h] = a[h] || function () {
+          (a[h].q = a[h].q || []).push(arguments)
+        };
+        o = f.createElement('script'),
+          m = f.getElementsByTagName('script')[0];
+        o.async = 1;
+        o.src = t;
+        o.id = 'fathom-script';
+        m.parentNode.insertBefore(o, m)
+      })(document, window, '//stats.grafikart.fr/tracker.js', 'fathom');
+      fathom('set', 'siteId', 'KKGPJ');
+      fathom('trackPageview');
+    </script>
   </head>
   <body class="  ">
     <div class="site-container">
       <header class="topbar" id="topbar">
-        <!-- <a class="topbar-logo" href="/"><svg width="39" height="31"><use xlink:href="https://www.grafikart.fr/assets/sprite-e39cb428b220d49bdcf7e988c31e5fa98c0622641b9b36e40587a495419f4987.svg#logo"></use></svg></a> -->
+        <a class="topbar-logo" href="/">
+			<svg width="39" height="31">
+				<use xlink:href="https://www.grafikart.fr/assets/sprite-e39cb428b220d49bdcf7e988c31e5fa98c0622641b9b36e40587a495419f4987.svg#logo">
+				</use>
+			</svg>
+		</a>
         <nav class="topbar-menu">
-          <a class="topbar-menu_home" href="/">Accueil</a>
-		  <a href="/planning">Planning</a>
-		  <a href="/courses">Courses</a>
-		  <!-- <a href="/blog">Blog</a>
-		  <a href="/forum">Forum</a>
-		  <a href="/live">Live </a>
-		  <a class="topbar-menu-premium" href="/premium">Premium</a> -->
+          <a class="topbar-menu_home" href="/">Planning</a>
+		  <a href="/Courses">Courses</a>
         </nav>
         <div class="topbar-right">
           <form class="js-search topbar-search" id="topbar-search" method="get" action="/search">
-            <!-- <span><a class="icon icon-search" href="/search"></a><input id="q" name="q" placeholder="Rechercher" /></span> -->
+            <span>
+				<a class="icon icon-search" href="/search"></a>
+				<input id="q" name="q" placeholder="Rechercher" />
+			</span>
           </form>
-		  <!-- <a class="btn btn-grey-border" href="/inscription">S&#39;inscrire</a> -->
 		  <a class="btn" id="btn-login" href="/login">Se connecter</a>
         </div>
         <div class="icon topbar-menu-icon" id="topbar-menu-icon">
@@ -60,14 +76,17 @@
           <div class="col-s-12 col-m-6">
             <div class="box box-signin">
               <div class="box-content dark">
-                <form novalidate="novalidate" class="simple_form new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zdKBK73KTt+P95NfkCzbVXzTXcrAU+TKs2C+of3cXkQEoheorKLucbdxtf71AElVhrP8SJhtP9IG6mmbMl+63g==" />
+                <form novalidate="novalidate" class="simple_form new_user" id="new_user" action="/users/sign_in" accept-charset="UTF-8" method="post">
+					<input name="utf8" type="hidden" value="&#x2713;" />
+					<input type="hidden" name="authenticity_token" value="46+O2e9CrChSCZZ7kWKBtU8h1xR/VRd1eg3+G2e8568z7jWUUYy1qChlpOLy1ZeA4ovlZyM2Yr9QIOdqCxdOwA==" />
                           <div class="form-group string required user_login">
-							  <input class="string required form-control" autofocus="autofocus" required="required" aria-required="true" placeholder="Email" type="text" name="user[login]" id="user_login" />
+							  <input class="string required form-control" autofocus="autofocus" required="required" aria-required="true" placeholder="Nom d&#39;utilisateur ou email" type="text" name="user[login]" id="user_login" />
 						  </div>
 						  <div class="form-group password required user_password">
 							  <input class="password required form-control" required="required" aria-required="true" placeholder="Mot de passe" type="password" name="user[password]" id="user_password" />
 						  </div>
-						  <div class="form-group hidden user_remember_me"><input value="1" class="hidden form-control" type="hidden" name="user[remember_me]" id="user_remember_me" />
+						  <div class="form-group hidden user_remember_me">
+							  <input value="1" class="hidden form-control" type="hidden" name="user[remember_me]" id="user_remember_me" />
 						  </div>
 						  <input type="submit" name="commit" value="Se connecter" class="btn btn-primary btn-block" data-disable-with="Se connecter" />
                           <p class="small">
@@ -77,9 +96,9 @@
               </div>
             </div>
           </div>
-         </div>
-      </div>
-
+          <div class="col-s-12 col-m-1">
+            <div class="spacer"></div>
+          </div>
       <div class="js-vue">
         <backtotop></backtotop>
       </div>
@@ -87,8 +106,6 @@
         <flash></flash>
       </div>
     </div>
-
-    <script src="/assets/application.76c869c8e2571c65b002.js" data-turbolinks-eval="false" data-turbolinks-suppress-warning=""></script>
-
+    <!-- <script src="/assets/application.76c869c8e2571c65b002.js" data-turbolinks-eval="false" data-turbolinks-suppress-warning=""></script> -->
   </body>
 </html>
