@@ -152,7 +152,7 @@ has-menu .topbar.is-hidden{-webkit-transform:none!important;-ms-transform:none!i
 
 .topbar-logo{float:left;display:block;height:66px;width:75px;padding-top:18px;margin-right:15px;background-color:#f5bf60;text-align:center;-webkit-transition-duration:.3s;transition-duration:.3s}
 
-.topbar-logo:focus,.topbar-logo:hover{background-color:#5f883e;outline:none}
+.topbar-logo:focus,.topbar-logo:hover{background-color:#F5DA5B;outline:none}
 
 .topbar-menu{float:left}
 
@@ -164,11 +164,12 @@ has-menu .topbar.is-hidden{-webkit-transform:none!important;-ms-transform:none!i
 
 .topbar-menu a{display:block;float:left;height:66px;padding:0 15px;line-height:66px;color:#6d7a8b;font-weight:700;-webkit-transition-duration:.3s;transition-duration:.3s}
 
+/* on colorie planning & courses */
 .topbar-menu a.active,.topbar-menu a:focus,.topbar-menu a:hover{color:#fff}
+/*
+.topbar-menu a:focus{border-bottom:3px solid #fff;outline:none} */
 
-.topbar-menu a:focus{border-bottom:3px solid #fff;outline:none}
-
-.topbar-menu-donate{color:#85b55d!important}
+/* .topbar-menu-donate{color:#85b55d!important} */
 
 .topbar-menu .topbar-menu_home{display:none}
 
