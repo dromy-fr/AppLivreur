@@ -300,49 +300,6 @@ has-menu .topbar.is-hidden{-webkit-transform:none!important;-ms-transform:none!i
 
 .form-search,.header-editor{position:relative}
 
-.form-search .form-control,.header-editor .form-control{margin:1rem 0;font-size:16px;font-weight:700;padding:5px;background-color:#fff}
-
-.form-search .form-group,.header-editor .form-group{margin-right:180px!important}
-
-.form-search .ap-payment-button,.form-search .btn,.form-search .pricing-col footer a,.header-editor .ap-payment-button,.header-editor .btn,.header-editor .pricing-col footer a,.pricing-col footer .form-search a,.pricing-col footer .header-editor a{height:50px;position:absolute;top:1rem;right:0;border-top-left-radius:0;border-bottom-left-radius:0}
-
-.form-search .form-control{font-size:15px}
-
-.form-search .ap-payment-button,.form-search .btn,.form-search .form-control,.form-search .pricing-col footer a,.pricing-col footer .form-search a{margin-top:0;top:0}
-
-.grid .formation{grid-column-start:span 2;margin:0}
-
-.grid .formation:after,.grid .formation:before{display:none}
-
-.grid .formation.is-watched{position:relative}
-
-.grid .formation.is-watched:after{display:block;font:normal normal normal 20px/1 FontAwesome;content:"\F06E";position:absolute;top:5px;right:5px;left:auto;background-color:transparent;color:#fff;z-index:6;width:auto}
-
-.grid .formation.is-watched:before{display:block;content:"";position:absolute;top:0;right:0;left:auto;width:0;height:0;z-index:5;background:transparent;border-top:50px solid #8c8c8c;border-left:50px solid transparent}
-
-.theme{display:table;width:100%;margin-bottom:1.875rem}
-
-.theme img{display:block;width:auto;height:105px}
-
-.theme .theme_image{display:table-cell;width:175px;padding-right:10px}
-
-.theme .theme_actions,.theme .theme_title{display:table-cell;vertical-align:middle}
-
-/* .theme .theme_actions{text-align:right;padding-right:1.875rem} */
-
-/* .author{position:relative;padding-left:70px;margin-bottom:2rem} */
-
-/* .author_avatar{position:absolute;top:0;left:0;width:50px;height:50px;border:2px solid #fff;margin:3px 0;border-radius:50px} */
-
-/* .technology-header{position:relative;padding:0 64px} */
-
-/* .technology-icon{display:none} */
-
-/* .technology-sidebar{padding-top:80px!important} */
-
-/* .has-tabs .technology-sidebar{padding-top:0!important} */
-
-/* .has-tabs #tutoriels{display:none} */
 
 /*!
  *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
