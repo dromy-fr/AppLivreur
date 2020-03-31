@@ -258,7 +258,9 @@ has-menu .topbar.is-hidden{-webkit-transform:none!important;-ms-transform:none!i
 
 .has-sidebar .sidebar-menu a:nth-child(9){-webkit-transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .45s;transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .45s;transition:transform .3s ease .45s,color .3s ease 0s,background .3s ease 0s;transition:transform .3s ease .45s,color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .45s}
 
-.has-sidebar .sidebar-menu a:nth-child(10){-webkit-transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s;transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s;transition:transform .3s ease .5s,color .3s ease 0s,background .3s ease 0s;transition:transform .3s ease .5s,color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s}
+/* .has-sidebar .sidebar-menu a:nth-child(10){-webkit-transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s;transition:color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s;transition:transform .3s ease .5s,color .3s ease 0s,background .3s ease 0s;transition:transform .3s ease .5s,color .3s ease 0s,background .3s ease 0s,-webkit-transform .3s ease .5s} */
+
+/* ok */
 
 .header{position:relative;padding:25px 0;border-bottom:1px solid #e5e5e5;background-color:#f9f9f9;background-position:50%;background-size:cover;-webkit-transition-duration:.3s;transition-duration:.3s}
 
